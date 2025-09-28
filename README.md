@@ -1,16 +1,47 @@
-# React + Vite
+### Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and stylish **React + TailwindCSS** app that generates secure random passwords.  
+Includes options for length, numbers, and symbols — with a one-click **copy to clipboard** feature.
+---
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-  Generate random passwords instantly  
+-  Adjust password length (8–30 characters)  
+-  Include/exclude **numbers** and **symbols**  
+-  One-click **copy to clipboard** with animated confirmation  
+-  Modern UI with **TailwindCSS**  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Preview
+<img width="657" height="591" alt="image" src="https://github.com/user-attachments/assets/f8896925-d15e-4d6f-a6ea-6c67c60a99f2" />
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tech Stack
+
+- [React](https://react.dev/)  
+- [TailwindCSS](https://tailwindcss.com/)  
+- [React Icons](https://react-icons.github.io/react-icons/)  
+
+---
+
+##  Getting Started
+
+### 1. Clone the repo
+bash
+git clone https://github.com/YOUR-USERNAME/password-generator.git
+cd password-generator
+
+###2. Install dependencies
+bash
+Copy code
+npm install
+###3. Run the app
+bash
+Copy code
+npm run dev
+
+The app will be running at http://localhost:5173/ (Vite default).
