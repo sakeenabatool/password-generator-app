@@ -31,17 +31,19 @@ Includes options for length, numbers, and symbols — with a one-click **copy to
 ##  Getting Started
 
 ### 1. Clone the repo
-bash
+```bash
 git clone https://github.com/YOUR-USERNAME/password-generator.git
 cd password-generator
+```
 
-###2. Install dependencies
-bash
-Copy code
+### 2. Install dependencies
+```bash
 npm install
-###3. Run the app
-bash
-Copy code
-npm run dev
+```
 
-The app will be running at http://localhost:5173/ (Vite default).
+### 3. Run the app
+```bash
+npm run dev
+```
+
+The app will be running at **http://localhost:5173/** (Vite default).
